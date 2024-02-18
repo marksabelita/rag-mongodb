@@ -1,0 +1,19 @@
+{
+  "exclude": [".venv"],
+  "python.venvPath": "./venv/",
+
+  "reportTypeshedErrors": false,
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "reportArgumentType": false,
+  "reportCallIssue": false,
+  "reportAttributeAccessIssue": false,
+
+  "executionEnvironments": [
+    {
+      "root": "./",
+      "venv": "./",
+      "extraPaths": ["./3rd-modules"]
+    }
+  ]
+}
